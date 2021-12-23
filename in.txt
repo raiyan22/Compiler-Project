@@ -1,0 +1,161 @@
+!import mainProgram!
+!import essentials!
+
+int function init ( int p, int q ){
+	int Var_a = 500;
+	sv<<(Var_a);
+	nl();
+	ss<<("400");
+	nl();
+}
+
+run  {
+
+	ss<< ( " - Project One -" );
+	nl( );
+
+	int x = 23 ,y,z;
+	sv<<(x); nl();
+	int xy, yz, zx;
+	x = 45 ;
+	sv<<(x);
+	int _xxvrf;
+	nl();
+	double dd, ff, gg;
+	char rty, qwe, tyu;
+	int a = 6 + 5 ;
+	int ab = a / 2 + 12 * ( a + 1 )  ;
+	int b = -5, c = b+1;
+	sv<< ( ab );
+	nl();
+
+	sv<<(b);
+	nl();
+
+	ab = ab + 2 ;
+	sv<<( ab );
+	nl( );
+
+
+	# gcd + lcm
+	ss<< ("gcd: ");
+	b = 60 gcd 25 ;
+	sv<< ( b ) ;
+	nl();
+	ss<< ("lcm: ");
+	c = 60 lcm 25 ;
+	sv<<( c ) ; nl(); nl();
+
+	ss<< ("trig + log function: ");
+	nl();
+	sf<< sin(90) ;
+	sf<< cos(45) ;
+	sf<< tan(45) ;
+	sf<< log10(2) ;
+	sf<< log(2) ;
+	nl();
+
+	# Addition
+	a = 25 + 53 ;  
+	ss<< ( "Addition of 25 + 53: " );
+	sv<< ( a );
+	nl( );
+
+    # Substraction
+	int sub = 100 - 3 ;
+	ss<< ( "Substraction of 10 - 3: " );
+	sv<< ( sub ) ;
+	nl( );
+	
+	# Multiplication
+	int mul = 5 * 7 ;
+	ss<< ( "Multiplication of 5 * 7: " ) ;
+	sv<< ( mul ) ;
+	nl( ) ;
+	
+	    #     Division
+	int div = 400 / 5 ;
+	ss<< ( "division of 400 / 5: " ) ;
+	sv<< ( div ) ;
+	nl( ) ;
+
+	# Mod function
+	ss<< ("modulus: ");
+	a = 5 % 3 ;
+	sv<< (a) ;
+	nl();
+
+	#power function
+	ss<< ("power: ");
+	int p = 5^3 ;
+	sv<< ( p ) ;
+	nl();
+
+	#Factorial function
+	ss<< ("factorial : ");
+	sf<< FACT(5);
+
+	#odd even function
+	ss<< ("odd even func: ");
+	sf<< ODDEVEN(5);
+	
+	ss<< ("sum of digit of 999 : ");
+	nl();
+	sf<< SUMDIGIT(999);
+	
+	ss<< ("reverse of number 345235 :");
+	nl();
+	sf<< REVNUM(345235);
+
+	#max and min of two numbers
+	ss<<("max and min checking");
+	nl();
+	sf<< MAX ( 100 And 21 ) ;
+	
+	sf<< MIN ( 400 and 23 ) ;
+	nl();
+	
+	# Single line comment
+
+	// multiline comment example
+	this is nth line
+	      multiline comment
+	this is n+2 th line
+		comment done  //
+	
+	
+	#reverse and sort a string
+	sf<< REVSTR ( "Khulna" ) ;
+	nl( );
+	sf<< SORT ( "zwabgdertef" ) ;
+	nl( );
+
+	# if else execution
+
+	if (5!==5)    { ss<< ( "if Executed" ); }
+	elseif (5>=5) { ss<< ( "else if executed" );}
+	else          { ss<< ("else executed"); }
+	nl();
+
+	int stw = 5;
+	switch ( stw ) {
+		3: { ss<<("case 3");}
+		4: { ss<<("case 4");}
+		5: { ss<<("case 5");}
+		8: { ss<<("case 8");}
+		default: { ss<<("by default");}		
+	}
+	nl();
+
+	int start = 1 + 0;
+	int end = 5;
+
+	for ( start -> end : 1 ) {
+		ss<<( "ab " );
+	}
+	nl();
+	
+
+
+
+} ;

@@ -1,0 +1,47 @@
+header file found
+header file found
+500
+400
+UDFunction found
+ - Project One -
+23
+45
+149
+-5
+151
+gcd: 5
+lcm: 300
+
+trig + log function: 
+1.000000
+0.707105
+1.000004
+0.301030
+0.693147
+
+Addition of 25 + 53: 78
+Substraction of 10 - 3: 97
+Multiplication of 5 * 7: 35
+division of 400 / 5: 80
+modulus: 2
+power: 125
+factorial : 120
+odd even func: odd
+sum of digit of 999 : 
+27
+reverse of number 345235 :
+532543
+max and min checking
+100
+23
+
+anluhK
+abdeefgrtwz
+else if executed
+case 5
+ab ab ab ab ab 
+
+
+
+>>>> Success <<<<
+
